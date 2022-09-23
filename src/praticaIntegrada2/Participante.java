@@ -10,6 +10,7 @@ public class Participante {
     private String celEmergencia;
     private String tipoSanguineo;
     private int circuito;
+    private int valorIncricao;
 
     //metodos
 
@@ -31,6 +32,7 @@ public class Participante {
         else {
             System.out.println("Circuito Avançado");
         }
+        System.out.println("Valor da inscrição: " + getValorIncricao());
     }
 
     public void exibirNumeroNome(int index) {
@@ -99,5 +101,27 @@ public class Participante {
 
     public void setCircuito(int circuito) {
         this.circuito = circuito;
+    }
+
+    public int getValorIncricao() {
+        return valorIncricao;
+    }
+
+    public void setValorIncricao() {
+        if (getCircuito() == 1 && getIdade() < 18){
+            this.valorIncricao = 1300;
+        }
+        else if(getCircuito() == 1 && getIdade() >= 18){
+            this.valorIncricao = 1500;
+        }
+        else if (getCircuito() == 2 && getIdade() < 18){
+            this.valorIncricao = 2000;
+        }
+        else if(getCircuito() == 2 && getIdade() >= 18){
+            this.valorIncricao = 2300;
+        }
+        else {
+            this.valorIncricao = 2800;
+        }
     }
 }

@@ -3,6 +3,30 @@ package praticaIntegrada2;
 import java.util.*;
 
 public class Main {
+    public static int SelecionarCircuito(int idade) {
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Selecione o circuito: ");
+        System.out.println("1 - Pequeno");
+        System.out.println("2 - Médio");
+        System.out.println("3 - Avançado");
+
+        int categoriaCircuito = keyboard.nextInt();
+
+        if(categoriaCircuito == 3 && idade < 18){
+            System.out.println("Menores de 18 anos não podem se inscrever na categoria avançada! \n Escolha outra categoria ou cancele o cadastro.");
+            System.out.println("Selecione o circuito: ");
+            System.out.println("1 - Pequeno");
+            System.out.println("2 - Médio");
+            System.out.println("3 - Avançado");
+            System.out.println("4 - Cancelar");
+
+            categoriaCircuito = keyboard.nextInt();
+        }
+
+        return categoriaCircuito;
+    }
+
     public static void main(String[] args) {
         HashMap<Integer,Participante> listaParticipantes = new HashMap<>();
         Scanner keyboard = new Scanner(System.in);
@@ -42,11 +66,16 @@ public class Main {
                     System.out.print("Tipo Sanguineo: ");
                     part.setTipoSanguineo(keyboard.next());
                     System.out.println("");
-                    System.out.println("Selecione o circuito: ");
-                    System.out.println("1 - Pequeno");
-                    System.out.println("2 - Médio");
-                    System.out.println("3 - Avançado");
-                    part.setCircuito(keyboard.nextInt());
+
+                    int circuito = SelecionarCircuito(part.getIdade());
+                    if (circuito == 4){
+                        break;
+                    }
+                    else {
+                        part.setCircuito(circuito);
+                    }
+
+                    part.setValorIncricao();
 
                     listaParticipantes.put(number,part);
                     number++;
@@ -56,10 +85,10 @@ public class Main {
                     System.out.println("1 - Pequeno");
                     System.out.println("2 - Médio");
                     System.out.println("3 - Avançado");
-                    int circuito = keyboard.nextInt();
+                    int categoriaCircuito = keyboard.nextInt();
 
                     for (Map.Entry<Integer, Participante> participante: listaParticipantes.entrySet()){
-                        if (participante.getValue().getCircuito() == circuito) {
+                        if (participante.getValue().getCircuito() == categoriaCircuito) {
                             participante.getValue().exibir(participante.getKey());
                             System.out.println("-------------------------------------------------------------");
                         }

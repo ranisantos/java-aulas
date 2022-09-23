@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="51eddd84-03a7-44a4-aa86-a6a6e5847576" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praticaIntegrada1/PraticaIntegradora1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/praticaIntegrada1/PraticaIntegradora1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praticaIntegrada1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/praticaIntegrada2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praticaIntegrada2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/praticaIntegrada2/Participante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praticaIntegrada2/Participante.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +48,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PraticaIntegradora1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="praticaIntegrada1.PraticaIntegradora1" />
+    <configuration name="praticaIntegrada1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="praticaIntegrada1.Main" />
       <module name="bootcamp-aula-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -56,7 +58,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PraticaIntegradora1" />
+        <item itemvalue="Application.praticaIntegrada1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -68,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663853095807</updated>
-      <workItem from="1663853101014" duration="9083000" />
+      <workItem from="1663853101014" duration="10514000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,6 @@
 package praticaIntegrada1;
 
-public class PraticaIntegradora1 {
+public class Main {
     public static String[] CreateCityArray(){
         String cities[] = new String[10];
 
