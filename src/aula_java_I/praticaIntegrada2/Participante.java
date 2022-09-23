@@ -1,4 +1,4 @@
-package praticaIntegrada2;
+package aula_java_I.praticaIntegrada2;
 
 public class Participante extends  Pessoa{
     private int circuito;

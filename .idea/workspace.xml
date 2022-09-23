@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="51eddd84-03a7-44a4-aa86-a6a6e5847576" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/praticaIntegrada2/Participante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/praticaIntegrada2/Participante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/praticaIntegrada1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula_java_I/praticaIntegrada1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/praticaIntegrada2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula_java_I/praticaIntegrada2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/praticaIntegrada2/Participante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula_java_I/praticaIntegrada2/Participante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/praticaIntegrada2/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula_java_I/praticaIntegrada2/Pessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +41,29 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.aula_java_II.praticaIntegradora1.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="praticaIntegrada2.Main" />
+      <option name="MAIN_CLASS_NAME" value="aula_java_I.praticaIntegrada2.Main" />
       <module name="bootcamp-aula-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="praticaIntegrada1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="praticaIntegrada1.Main" />
+    <configuration name="aula_java_II.praticaIntegradora1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula_java_II.praticaIntegradora1.Main" />
+      <module name="bootcamp-aula-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula_java_II.praticaIntegradora1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aula_java_I.praticaIntegrada1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula_java_I.praticaIntegrada1.Main" />
       <module name="bootcamp-aula-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -55,8 +71,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aula_java_II.praticaIntegradora1.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.praticaIntegrada1.Main" />
+        <item itemvalue="Application.aula_java_I.praticaIntegrada1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -68,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663853095807</updated>
-      <workItem from="1663853101014" duration="10850000" />
+      <workItem from="1663853101014" duration="12422000" />
     </task>
     <servers />
   </component>

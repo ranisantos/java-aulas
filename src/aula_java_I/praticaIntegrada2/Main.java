@@ -1,4 +1,4 @@
-package praticaIntegrada2;
+package aula_java_I.praticaIntegrada2;
 
 import java.util.*;
 

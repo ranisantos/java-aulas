@@ -1,4 +1,4 @@
-package praticaIntegrada1;
+package aula_java_I.praticaIntegrada1;
 
 public class Main {
     public static String[] CreateCityArray(){
