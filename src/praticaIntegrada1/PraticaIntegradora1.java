@@ -1,8 +1,6 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+package praticaIntegrada1;
 
-public class Main {
+public class PraticaIntegradora1 {
     public static String[] CreateCityArray(){
         String cities[] = new String[10];
 
