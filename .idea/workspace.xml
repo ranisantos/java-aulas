@@ -12,6 +12,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,7 +39,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Distribuidora">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Distribuidora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula_java_II.praticaIntegradora2.Distribuidora" />
       <module name="bootcamp-aula-java" />
@@ -66,18 +67,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula_java_I.praticaIntegrada2.Main" />
-      <module name="bootcamp-aula-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="aula_java_II.praticaIntegradora1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula_java_II.praticaIntegradora1.Main" />
+      <option name="MAIN_CLASS_NAME" value="aula_java_III.praticaIntregadora2.exercicio1.Main" />
       <module name="bootcamp-aula-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula_java_II.praticaIntegradora1.*" />
+          <option name="PATTERN" value="aula_java_III.praticaIntregadora2.exercicio1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,20 +79,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aula_java_I.praticaIntegrada1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula_java_I.praticaIntegrada1.Main" />
+    <configuration name="aula_java_III.praticaIntregadora1.exercicio2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula_java_III.praticaIntregadora1.exercicio2.Main" />
       <module name="bootcamp-aula-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula_java_III.praticaIntregadora1.exercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aula_java_III.praticaIntregadora1.exercicio3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula_java_III.praticaIntregadora1.exercicio3.Main" />
+      <module name="bootcamp-aula-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula_java_III.praticaIntregadora1.exercicio3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.aula_java_III.praticaIntregadora1.exercicio3.Main" />
+        <item itemvalue="Application.aula_java_III.praticaIntregadora1.exercicio2.Main" />
         <item itemvalue="Application.Distribuidora" />
         <item itemvalue="Application.Exercio1" />
-        <item itemvalue="Application.aula_java_II.praticaIntegradora1.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.aula_java_I.praticaIntegrada1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663853095807</updated>
-      <workItem from="1663853101014" duration="14851000" />
+      <workItem from="1663853101014" duration="21684000" />
     </task>
     <servers />
   </component>
