@@ -5,9 +5,11 @@ public class NumberGenerator {
     private int next;
     private final static NumberGenerator instancia = new NumberGenerator();
 
-    private NumberGenerator(){ }
+    private NumberGenerator() {
 
-    public static NumberGenerator getInstance(){
+    }
+
+    public static NumberGenerator getInstance() {
         return instancia;
     }
 
